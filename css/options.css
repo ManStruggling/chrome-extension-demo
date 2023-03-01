@@ -1,0 +1,32 @@
+.wrapper {
+  width: 50%;
+  height: 100%;
+  padding: 100px 0;
+  margin: 0 auto;
+}
+
+.option-item {
+  margin-bottom: 20px;
+}
+
+.option-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.form-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.form-wrap input {
+  margin: 0 10px;
+}
+
+.btn {
+  background-color: lightblue;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+}

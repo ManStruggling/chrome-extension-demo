@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>drink helper options</title>
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/options.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="option-item">
+      <div class="option-title">badge text</div>
+      <div class="form-wrap">
+        ON:<input type="text" placeholder="设置启用状态badge text" class="on-text">
+        OFF:<input type="text" placeholder="设置禁用状态badge text" class="off-text">
+        <button class="btn set-badge-text">设置</button>
+      </div>
+    </div>
+    <div class="option-item">
+      <div class="option-title">badge bg color</div>
+      <div class="form-wrap">
+        ON:<input type="color" value="#63a1ff" class="on-bg">
+        OFF:<input type="color" value="#f94d4b" class="off-bg">
+        <button class="btn set-badge-bg">设置</button>
+      </div>
+    </div>
+    <div class="option-item">
+      <div class="option-title">水印文本配置</div>
+      <div class="form-wrap">
+        <input type="text" placeholder="请设置水印内容" class="watermark-text">
+        <button class="btn set-watermark">设置</button>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="./js/jquery-3.4.1.min.js"></script>
+<script src="./js/options.js"></script>
+</html>

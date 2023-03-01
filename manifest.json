@@ -1,0 +1,41 @@
+{
+  "name": "Drink Helper",
+  "description": "喝水小助手",
+  "version": "1.0",
+  "manifest_version": 2,
+  "options_page": "options.html",
+  "permissions": ["storage", "declarativeContent", "alarms", "notifications", "contextMenus", "activeTab"],
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+K",
+        "mac": "MacCtrl+Shift+K"
+      },
+      "description": "opens popup.html"
+    }
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/png16.png",
+      "24": "icons/png24.png",
+      "32": "icons/png32.png",
+      "48": "icons/png48.png"
+    }
+  },
+  "icons": {
+    "16": "icons/png16.png",
+    "24": "icons/png24.png",
+    "32": "icons/png32.png",
+    "48": "icons/png48.png",
+    "64": "icons/png64.png",
+    "128": "icons/png128.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newTab.html"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
